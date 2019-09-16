@@ -1,0 +1,10 @@
+The CPU Max is: 20
+The CPU Average is: 15
+The CPU throughput is: 0
+The Disk1 Max is: 65
+The Disk1 Average is: 50
+The Disk1 throughput is: 0
+The Disk2 Max is: 65
+The Disk2 Average is: 50
+The Disk2 throughput: 0
+The utilization of the server is: 500

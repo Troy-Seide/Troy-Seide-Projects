@@ -1,0 +1,37 @@
+Seed: 10000
+Init_Time: 0
+Fin_Time: 500
+Arrive_Min: 10
+Arrive_Max: 50
+Quit_Prob: 20
+CPU_Min: 10
+CPU_Max: 20
+Disk1_Min: 35
+Disk1_Max: 65
+Disk2_Min: 35
+Disk2_Max: 65
+
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+A new process has entered Disk 1 queue and plans on moving into Disk1 at time = 39
+Based off the quit probability the system has exited.
+A new process has entered Disk 1 queue and plans on moving into Disk1 at time = 78
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+A new process has entered Disk 1 queue and plans on moving into Disk1 at time = 117
+Based off the quit probability the system has exited.
+A new process has entered Disk 1 queue and plans on moving into Disk1 at time = 163
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+A new process has entered Disk 1 queue and plans on moving into Disk1 at time = 199
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
+Based off the quit probability the system has exited.
