@@ -1,0 +1,17 @@
+-------------------------
+	Overview
+-------------------------
+The concept of the project is to build an Event Simulator. It follows a diagram similar to this below, where the overall path of the processes starts in the event simulator by entering the CPU Queue which then transfers to the next stage, the CPU. While in the CPU stage the process has the random chance of leaving the system or moving onto the next stage being disk 1 queue or disk 2 queue. After the process either enters the disk 1 queue or the disk 2 queue it then follows onto the actual disk. For example, if a process enters the disk 1 queue then it would move into the disk 1 stage next. After being in the disk 1 queue the process would find its way back to the CPU Queue if the program is still operating.   
+ 
+
+
+-------------------------
+Design Decisions Issues
+-------------------------
+1. The design implementation I took on this project started with me creating a struct named Process which contained three variables, id, current_state, and time. Also contained within my struct were number representations of what each state represented. For example, I had the number 0 represent the CPU Queue, 1 represent the CPU, 2 represent the Disk1 Queue, 3 represent Disk1, 4 represent Disk2 Queue, 5 represent Disk2, and 6 represent the Simulation Finished Event.
+2. Next, I created about twenty four global variables. Some of these include a CPU Max and Min, a Disk1 Max and Min, a Disk2 Max and Min, a Arrive Max and Min, an Initial Time, Final Time, as well as a Quit Probability.
+3. As for my functions, there were three important ones that I created. First was my largest function called task_initializer which contained my queues that I developed using arrays to represent a Priority Queue, CPU Queue, Disk1 Queue, and Disk 2 Queue. Within this function I also had some important variables such as Priority_head and tail, Disk1_head and tail, Disk2_head and tail, CPU_head and tail which helped to indicate whether there was a process present in each queue or disk. For my second function random_number I had a random number generator which helped to determine things like the Quit Probability of a process and where a process should go next if a there was a tie-up for which disk queue the process should enter. Lastly, the other function I had was text_file_config which opened a configuration file to get some constants which was written into a new log file throughout the program. Also there was a statistics file made within that function as well which contained some of the calculations for the queue/disk sizes and averages.
+-------------------------
+	Issues
+-------------------------
+Some underlying issues that occured within my program was the random number generator using the same number in many cases when testing which skewed my results and caused the Quit Probability to occur more often. Another problem that I had stemmed from losing track of the process updating to a new queue so it would skip a queue and end up in a disk directly which is incorrect. Lastly, one other problem I encountered was that I struggled to append new information to the log file multiple times throughout the program which left my log file less descriptive.

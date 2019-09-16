@@ -1,0 +1,20 @@
+-------------------------
+	Testing
+-------------------------
+For testing my program, I actually did not have the best implementation. My strategy for testing my program was by enterinng random values that seemed to be representative of actual values a process and queue might experience. Also, in terms of testing my program I had to do forms of debugging in which I had multiple errors within my code that caused me to go through each line and add print statements to figure out what worked and what did not work. Here is an example of what my values looked like for the constants within my configuration file. 
+Seed: 10000
+Init_Time: 0
+Fin_Time: 500
+Arrive_Min: 10
+Arrive_Max: 50
+Quit_Prob: 20
+CPU_Min: 10
+CPU_Max: 20
+Disk1_Min: 35
+Disk1_Max: 65
+Disk2_Min: 35
+Disk2_Max: 65
+-------------------------
+	Learning
+-------------------------
+I was able to learn how to search for bugs in my code at a more effective rate. I was also able to become more familiar with queues and processes and how they each work. Although I found this lab to be very challenging, ultimately I feel that this lab helped me strengthen my logical skills and how I strategically approach a problem.
